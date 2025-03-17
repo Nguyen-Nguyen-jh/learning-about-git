@@ -1,0 +1,15 @@
+1. Search and re-familiar on the concept of Merge & Rebase
+  - Git merge: Merge combines two branches by creating a new merge commit. This method preserves the entire 
+    commit history, including the points where the branches diverged and merged.
+  - Rebase moves or reapplies commits from one branch onto the top of another branch, creating a cleaner, 
+    linear history. This method "rewrites" history by creating new commits based on the original commits.
+
+2. Pros and cons of merge and rebase
+  - Merge:
+    + Pros: The commit history is maintained, accurately reflecting (phản ánh) the development process of the project.
+    + Cons: It can create many merge commits, making the history more complex and harder to follow.
+  - Rebase:
+    + Pros: It avoids creating multiple merge commits, keeping the history cleaner, help to easier follow 
+      and understand
+    + Cons: Rebase changes older commits, which can cause problems if the branch has already been shared 
+      with others (push onto the origin).
