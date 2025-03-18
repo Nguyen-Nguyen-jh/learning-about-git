@@ -1,0 +1,7 @@
+*** The reasons for code conflicts:
+  - Changes to the Same Line: If two developers modify the same line or block of code in the same file, 
+    Git can't automatically merge these changes. A conflict will arise, and Git will ask the developer 
+    to manually resolve it.
+  - Rebasing and Merging
+  - Renaming Files
+  - Deleting a File and Modifying It
